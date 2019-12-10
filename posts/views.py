@@ -22,6 +22,3 @@ def post(request):
 
 def cadastro(request):
     return render(request, 'cadastro.html')
-
-def login(request):
-    return render(request, 'login.html')
